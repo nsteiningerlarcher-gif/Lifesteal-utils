@@ -1,0 +1,19 @@
+{
+  "schemaVersion": 1,
+  "id": "lifestealutility",
+  "version": "${version}",
+  "name": "Lifesteal Utility",
+  "description": "A dark-blue client-side utility mod with visible-block focus and singleplayer planting assistance.",
+  "environment": "client",
+  "entrypoints": {
+    "client": [
+      "com.example.lifesteal.LifestealClient"
+    ]
+  },
+  "depends": {
+    "fabricloader": ">=0.19.3",
+    "minecraft": "26.1.2",
+    "java": ">=25",
+    "fabric-api": "*"
+  }
+}
